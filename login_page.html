@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login.com</title>
+    <style>
+        * {
+           margin: 0%;
+           padding: 0%;
+        } 
+        body {
+           overflow: hidden;
+        }
+        .container {
+           display: flex;
+           justify-content: center;
+        }
+        .logo_images {
+           height: 45px;
+           width: 145px;
+           background-image: url("logo_black_text.png");
+           background-size: cover;
+           margin-top: 1%;
+        }
+        .in {
+           position: relative;
+           left: 102%;
+           top: 20%;
+           font-size: 20px;
+           font-weight: 500;
+        }
+        main {
+           display: flex;
+           justify-content: center;
+        }
+        .outer {
+           height: 390px;
+           width: 360px;
+           border: 2px solid rgb(235, 231, 231);
+           display: flex;
+           justify-content: center;
+           margin-top: 20px;
+           border-radius: 10px;
+        }
+        .inner {
+           height: 330px;
+           width: 300px;
+           margin-top: 30px;
+        }
+        p {
+           font-weight: 100;
+           font-size: 30px;
+        }
+        hr {
+           margin-top: 3%;
+        }
+        .switch-acc {
+           position: relative;
+           top: 3%;
+           left: 67%;
+        }
+        .user_login_img {
+           height: 60px;
+           width: 60px;
+           background-image: url("user_login_img.jpg");
+           background-size: cover;
+        }
+        .user_container {
+           display: flex;
+           margin-top: 10%;
+        }
+        .user-info {
+           margin-left: 2%;
+           margin-top: 3%;
+        }
+        .input-container {
+           margin-top: 4%;
+           display: flex;
+           justify-content: space-between;
+        }
+        .input-box {
+           height: 25px;
+           width: 100%;
+           margin-top: 1%;
+           border-radius: 5px;
+        }
+        .blu-color {
+           color: rgb(56, 149, 149);
+        }
+        .blu-color:hover {
+           text-decoration: underline;
+           color: rgb(56, 79, 79);
+        }
+        button {
+           height: 30px;
+           width: 100%;
+           margin-top: 10%;
+           border-radius: 15px;
+           color: #1a1a1a;
+           background-color: rgba(243, 214, 32, 0.983);
+        }
+        button:hover {
+           background-color: rgb(235, 232, 33);
+        }
+        .check-container {
+           margin-top: 5%;
+        }
+        footer {
+           height: 50px;
+        }
+        .condition {
+           display: flex;
+           font-size: smaller;
+           justify-content: center;
+        }
+        .condition p {
+           color: black;
+           font-size: 15px;
+           padding: 20px;
+           margin-top: 2%;
+        }
+        .copyright {
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo_images">
+            <span class="in"> .in </span>
+        </div>
+    </header>
+    <main>
+        <div class="outer">
+            <div class="inner">
+                <p>Sign in</p>
+                <hr />
+                
+                <span class="switch-acc blu-color">switch account</span>
+                
+                <div class="user_container">
+                    <div class="user_login_img"></div>
+                    <div class="user-info">
+                       <span>user name</span>
+                       <span>waghgopal9860@gmail.com</span>
+                    </div>
+                </div>
+                
+                <div class="input-container">
+                    <span>Password</span>
+                    <span class="blu-color">Forgot Password ?</span>
+                </div>
+                
+                <input type="password" class="input-box" />
+                <button type="login here">Login here</button>
+                
+                <div class="check-container">
+                    <input type="checkbox" />
+                    Keep me signed in. <span class="blu-color">Details</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr />
+
+    <footer>
+        <div class="condition">
+            <p class="blu-color">condition of use</p>
+            <p class="blu-color">privacy notice</p>
+            <p class="blu-color">help</p>
+        </div>
+        <div class="copyright">
+            © 1996-2025, Amazon. com, Inc. or its affiliates
+        </div>
+    </footer>
+  </body>
+</html>
